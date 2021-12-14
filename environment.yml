@@ -1,0 +1,10 @@
+name: codegraph
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.10
+  - graphviz
+  - jupyterlab
+  - python-graphviz
