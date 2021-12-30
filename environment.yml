@@ -8,3 +8,4 @@ dependencies:
   - graphviz
   - jupyterlab
   - python-graphviz
+  - typeguard
