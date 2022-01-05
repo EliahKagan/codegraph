@@ -5,6 +5,7 @@
         "graphviz",
         "jupyterlab",
         "pygit",
+        "Segoe",
         "typeguard"
     ]
 }
