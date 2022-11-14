@@ -1,5 +1,5 @@
 # Cached Python bytecode
 __pycache__/
 
-# Checkpoints for git_graph (in case I ever test it out on a non-public repo).
-/.ipynb_checkpoints/git_graph-checkpoint.ipynb
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
