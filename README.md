@@ -5,15 +5,23 @@
 [Graphs](https://en.wikipedia.org/wiki/Graph_theory) have many applications in
 computer science and software engineering, because they are a general model of
 relatedness. This repository is a collection of examples where something in
-software engineering has a useful and interesting graph structure that is fun,
-useful, and fairly easy to visualize programmatically. Graphs are extremely
+software engineering has a useful and interesting graph structure that is
+straightforward—and fun—to visualize programmatically. Graphs are extremely
 versatile, so these examples are necessarily incomplete in the extreme.
+
+These [graphs](https://en.wikipedia.org/wiki/Graph_(discrete_mathematics))
+should not be confused with [the other thing called a
+graph](https://en.wikipedia.org/wiki/Graph_of_a_function), nor with
+[plots](https://en.wikipedia.org/wiki/Plot_(graphics)) (which relate to that
+other thing).
 
 ## License
 
 [0BSD](https://spdx.org/licenses/0BSD.html). See [**`LICENSE`**](LICENSE).
 
 ## The examples
+
+Currently all examples are in Python, with all the code in Jupyter notebooks.
 
 - [`builtin_types.ipynb`](builtin_types.ipynb) - inheritance hierarchy of
   Python builtins
@@ -57,8 +65,10 @@ pipenv install -d
 ```
 
 If you already have an application for running code in Jupyter notebooks that
-you want to use, such as the Jupyter extension in VS Code, then you can omit
-the `-d`.
+you want to use, such as [VS Code](https://code.visualstudio.com/) with the
+[Jupyter
+extension](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter),
+then you can omit the `-d`.
 
 As for installing GraphViz, most systems' package managers will install it, and
 the package name is usually GraphViz. If you can't find it, look into what
@@ -95,25 +105,27 @@ jupyter lab
 If you already have another application you prefer for opening and running code
 in Jupyter notebooks, you can use that.
 
-In particular, you can use VS Code with the Jupyter Notebooks extension. If you
-do, make sure the environment you created (with `conda` or `pipenv`) is
+In particular, you can use [VS Code with the Jupyter Notebooks
+extension](https://code.visualstudio.com/docs/datascience/jupyter-notebooks).
+If you do, make sure the environment you created (with `conda` or `pipenv`) is
 selected. If VS Code offers to install `ipykernel` or any other dependency, you
 should decline and select the appropriate environment.
 
 ## A simpler version
 
 An old, simpler version of some parts of this project is available on the
-**simple** branch, and may be of some interest.
+[**simple**](https://github.com/EliahKagan/codegraph/tree/simple) branch, and
+may be of some interest.
 
 ## Acknowledgements
 
 Some parts of this project were tested by, and were improved based on input
 from, [**David Vassallo**](https://github.com/dmvassallo/cgrep). Furthermore,
 significant parts were inspired by code I wrote for our project
-[`palgoviz`](https://github.com/EliahKagan/palgoviz), and some code to create
+[palgoviz](https://github.com/EliahKagan/palgoviz), and some code to create
 nested tuple structures is derived from code there.
 
 ## See also
 
-[`object_graph.ipynb`](https://github.com/EliahKagan/palgoviz/blob/main/notebooks/object_graph.ipynb)
-in [`palgoviz`](https://github.com/EliahKagan/palgoviz).
+- [`object_graph.ipynb`](https://github.com/EliahKagan/palgoviz/blob/main/notebooks/object_graph.ipynb)
+  in [palgoviz](https://github.com/EliahKagan/palgoviz).
