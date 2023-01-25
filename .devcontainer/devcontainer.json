@@ -1,0 +1,13 @@
+{
+    "name": "Python (for codegraph)",
+    "image": "mcr.microsoft.com/devcontainers/python:0-3.11",
+    "features": {
+    },
+    "customizations": {
+        "settings": {
+            "python.terminal.activateEnvironment": true
+        }
+    },
+    "postCreateCommand": "pipenv install",
+    "waitFor": "postCreateCommand"
+}
