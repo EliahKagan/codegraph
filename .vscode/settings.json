@@ -3,18 +3,27 @@
         "builtins",
         "codegraph",
         "conda",
+        "Eliah",
         "fontname",
         "graphviz",
         "graphvizonline",
+        "ipykernel",
         "ipynb",
         "jupyterlab",
+        "Kagan",
         "lightgray",
+        "Miniforge",
+        "nbdime",
+        "palgoviz",
+        "pipenv",
         "popleft",
         "pygit",
         "quux",
         "Segoe",
+        "subproblems",
         "typechecked",
         "typeguard",
-        "unflatten"
+        "unflatten",
+        "Vassallo"
     ]
 }
