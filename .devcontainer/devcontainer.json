@@ -8,6 +8,6 @@
             "python.terminal.activateEnvironment": true
         }
     },
-    "postCreateCommand": "pipenv install",
+    "postCreateCommand": "./postCreateCommand",
     "waitFor": "postCreateCommand"
 }
