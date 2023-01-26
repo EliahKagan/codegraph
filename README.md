@@ -57,7 +57,7 @@ conda env create
 ### `pipenv`
 
 To use [`pipenv`](https://pipenv.pypa.io/en/latest/), make sure `pipenv` is
-installed. Also install [GraphViz](https://graphviz.org/) on your system
+installed. Also install [Graphviz](https://graphviz.org/) on your system
 (`conda` takes care of that but `pipenv` doesn't). Then run:
 
 ```sh
@@ -70,9 +70,9 @@ you want to use, such as [VS Code](https://code.visualstudio.com/) with the
 extension](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter),
 then you can omit the `-d`.
 
-As for installing GraphViz, most systems' package managers will install it, and
-the package name is usually GraphViz. If you can't find it, look into what
-package provides the `dot` command. On Windows, if you want to install GraphViz
+As for installing Graphviz, most systems' package managers will install it, and
+the package name is usually Graphviz. If you can't find it, look into what
+package provides the `dot` command. On Windows, if you want to install Graphviz
 via a package manager, you can use [`scoop`](https://scoop.sh/).
 
 ## Usage
