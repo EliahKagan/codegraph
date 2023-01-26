@@ -57,8 +57,15 @@ conda env create
 ### `pipenv`
 
 To use [`pipenv`](https://pipenv.pypa.io/en/latest/), make sure `pipenv` is
-installed. Also install [Graphviz](https://graphviz.org/) on your system
-(`conda` takes care of that but `pipenv` doesn't). Then run:
+installed.
+
+Also install [Graphviz](https://graphviz.org/) on your system (`conda` takes
+care of that but `pipenv` doesn't). Graphviz 3.0.0 or higher is recommended, to
+avoid [scaling problems](https://github.com/EliahKagan/codegraph/issues/5).
+(Using `conda` instead of `pipenv` may be the easiest way to get a new version
+of GraphViz on some systems.)
+
+Then run:
 
 ```sh
 pipenv install -d
