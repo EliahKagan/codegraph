@@ -8,6 +8,6 @@
             "python.terminal.activateEnvironment": true
         }
     },
-    "postCreateCommand": "./postCreateCommand",
+    "postCreateCommand": ".devcontainer/postCreateCommand",
     "waitFor": "postCreateCommand"
 }
