@@ -3,7 +3,7 @@
 set -e
 
 if [ -z "$1" ]; then
-    printf '%s: error: GraphViz version to install not specified\n' "$0" >&2
+    printf '%s: error: Graphviz version to install not specified\n' "$0" >&2
     exit 1
 fi
 
