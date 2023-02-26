@@ -1,5 +1,8 @@
 # SPDX-License-Identifier: 0BSD
 
-# Shell scripts need LF (Unix-style) line endings.
+# Use LF (Unix-style) line endings on all systems.
+* text=auto eol=lf
+
+# Shell scripts need LF line endings, even if the above default is changed.
 /.devcontainer/installGraphviz text eol=lf
-/.devcontainer/postCreateCommand text eol=lf
+/.devcontainer/onCreate text eol=lf
