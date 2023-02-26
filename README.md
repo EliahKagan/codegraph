@@ -32,6 +32,7 @@ Currently all examples are in Python, with all the code in Jupyter notebooks.
 - [`nested_sequences.ipynb`](nested_sequences.ipynb) - heterogeneous nested
   collections
 - [`nested_tuples.ipynb`](nested_tuples.ipynb) - homogeneous nested collections
+- [`yaml.ipynb`](yaml.ipynb) - structured data
 
 ## Installation
 
