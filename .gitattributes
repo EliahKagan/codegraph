@@ -5,4 +5,4 @@
 
 # Shell scripts need LF line endings, even if the above default is changed.
 /.devcontainer/installGraphviz text eol=lf
-/.devcontainer/postCreate text eol=lf
+/.devcontainer/onCreate text eol=lf
