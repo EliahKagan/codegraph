@@ -1,13 +1,30 @@
 {
-    "name": "Python (for codegraph)",
+    "name": "codegraph",
     "image": "mcr.microsoft.com/devcontainers/python:0-3.11",
     "features": {
+        "ghcr.io/lukewiwa/features/shellcheck:0": {}
     },
     "customizations": {
-        "settings": {
-            "python.terminal.activateEnvironment": true
+        "vscode": {
+            "extensions": [
+                "bierner.markdown-preview-github-styles",
+                "eamodio.gitlens",
+                "GitHub.vscode-pull-request-github",
+                "mads-hartmann.bash-ide-vscode",
+                "mhutchie.git-graph",
+                "ms-python.python",
+                "ms-vsliveshare.vsliveshare",
+                "stkb.rewrap",
+                "streetsidesoftware.code-spell-checker",
+                "timonwong.shellcheck"
+            ],
+            "settings": {
+                "gitlens.showWelcomeOnInstall": false,
+                "gitlens.showWhatsNewAfterUpgrades": false,
+                "python.terminal.activateEnvironment": true
+            }
         }
     },
-    "postCreateCommand": ".devcontainer/postCreateCommand",
+    "postCreateCommand": ".devcontainer/postCreate",
     "waitFor": "postCreateCommand"
 }
