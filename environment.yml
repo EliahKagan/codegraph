@@ -11,4 +11,5 @@ dependencies:
   - nbdime
   - pygit2
   - python-graphviz
+  - pyyaml
   - typeguard

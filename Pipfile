@@ -7,6 +7,8 @@ name = "pypi"
 graphviz = "*"
 ipykernel = "*"
 pygit2 = "*"
+pyyaml = "*"
+requests = "*"
 typeguard = "*"
 
 [dev-packages]
