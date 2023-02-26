@@ -2,6 +2,7 @@
     "cSpell.words": [
         "builtins",
         "codegraph",
+        "codeql",
         "conda",
         "Eliah",
         "fontname",
@@ -18,6 +19,7 @@
         "pipenv",
         "popleft",
         "pygit",
+        "pyyaml",
         "quux",
         "Segoe",
         "subproblems",
@@ -25,5 +27,6 @@
         "typeguard",
         "unflatten",
         "Vassallo"
-    ]
+    ],
+    "notebook.output.textLineLimit": 1000
 }
