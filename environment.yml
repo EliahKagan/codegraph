@@ -12,4 +12,4 @@ dependencies:
   - pygit2
   - python-graphviz
   - pyyaml
-  - typeguard
+  - typeguard>=2.13.3,<3
