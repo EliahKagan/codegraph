@@ -686,11 +686,11 @@
         },
         "anyio": {
             "hashes": [
-                "sha256:44a3c9aba0f5defa43261a8b3efb97891f2bd7d804e0e1f56419befa1adfc780",
-                "sha256:91dee416e570e92c64041bd18b900d1d6fa78dff7048769ce5ac5ddad004fbb5"
+                "sha256:cfdb2b588b9fc25ede96d8db56ed50848b0b649dca3dd1df0b11f683bb9e0b5f",
+                "sha256:f7ed51751b2c2add651e5747c891b47e26d2a21be5d32d9311dfe9692f3e5d7a"
             ],
-            "markers": "python_version >= '3.7'",
-            "version": "==3.7.1"
+            "index": "pypi",
+            "version": "==4.0.0"
         },
         "argon2-cffi": {
             "hashes": [
@@ -1034,11 +1034,11 @@
         },
         "gitpython": {
             "hashes": [
-                "sha256:8d9b8cb1e80b9735e8717c9362079d3ce4c6e5ddeebedd0361b228c3a67a62f6",
-                "sha256:e3d59b1c2c6ebb9dfa7a184daf3b6dd4914237e7488a1730a6d8f6f5d0b4187f"
+                "sha256:11f22466f982211ad8f3bdb456c03be8466c71d4da8774f3a9f68344e89559cb",
+                "sha256:13aaa3dff88a23afec2d00eb3da3f2e040e2282e41de484c5791669b31146084"
             ],
             "markers": "python_version >= '3.7'",
-            "version": "==3.1.32"
+            "version": "==3.1.33"
         },
         "idna": {
             "hashes": [
@@ -1162,11 +1162,11 @@
         },
         "jupyter-server": {
             "hashes": [
-                "sha256:98a375347b580e837e7016007c24680a4261ed8ad7cd35196ac087d229f48e5a",
-                "sha256:d64fb4e593907290e5df916e3c9399c15ab2cd7bdb71cbcd1d36452dbfb30523"
+                "sha256:8e4b90380b59d7a1e31086c4692231f2a2ea4cb269f5516e60aba72ce8317fc9",
+                "sha256:d4916c8581c4ebbc534cebdaa8eca2478d9f3bfdd88eae29fcab0120eac57649"
             ],
-            "index": "pypi",
-            "version": "==2.7.2"
+            "markers": "python_version >= '3.8'",
+            "version": "==2.7.3"
         },
         "jupyter-server-fileid": {
             "hashes": [
@@ -1975,11 +1975,11 @@
         },
         "ypy-websocket": {
             "hashes": [
-                "sha256:4169dc714ff592968ff7c2f4623045191d0cb1d3f40d0803e715c8a8b3acdde3",
-                "sha256:cf6f73ac4d6361f305c1ab6eead63292a5993228c94dda18d6c4997d5ef88b1c"
+                "sha256:1d0f876e6a586248c54b52735798cc473e5800f8cd4acd050b5d5f20f2ef9bf6",
+                "sha256:f5a5a523ed27ffa8676dd3337b100c2a337f13f6c42392e95dd24f66f3a6dd5a"
             ],
             "markers": "python_version >= '3.7'",
-            "version": "==0.12.1"
+            "version": "==0.12.2"
         }
     }
 }
