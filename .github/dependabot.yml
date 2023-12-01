@@ -10,6 +10,7 @@ updates:
     groups:
       python-dependencies:
         patterns: ['*']
+        exclude-patterns: ['typeguard']
 
   - package-ecosystem: "github-actions"
     directory: "/"
