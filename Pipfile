@@ -9,7 +9,7 @@ ipykernel = "*"
 pygit2 = "*"
 pyyaml = "*"
 requests = "*"
-typeguard = ">=2.13.3,<5"
+typeguard = ">=2.13.3,<3"
 
 [dev-packages]
 jupyterlab = "*"
