@@ -3,5 +3,5 @@
 
 set -e
 
-.devcontainer/installGraphviz 8.0.5
+.devcontainer/installGraphviz 12.2.1
 pipenv install
